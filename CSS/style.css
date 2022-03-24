@@ -1,0 +1,376 @@
+/*General Roals*/
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+/*font face roals*/
+@font-face{
+    font-family:Bold;
+    src: url("../Fonts/KumbhSans-Bold.ttf");
+}
+@font-face{
+    font-family:Regular;
+    src: url("../Fonts/KumbhSans-Regular.ttf");
+}
+.containar{
+    background-color: #FAFAFA;
+    width:100%;
+    padding: 30px 30px 0px 30px;
+    margin-bottom: 1000px;
+}
+.logo{
+   margin-left:70px;
+   margin-bottom: 70px;
+   margin-top: 10px;
+}
+.main-nav:hover .nav-item{
+    color: blue;
+}
+.main-nav{
+    margin-left: 50px;
+}
+.header-top{
+display: flex;
+justify-content: space-between;
+}
+.main-nav .nav-item{
+    color: black;
+    height: 50px;  
+    display: inline-block;
+    padding: 15px;
+    font-size: 20px;
+}
+.header-contant{
+    display: flex;
+    justify-content: space-between;
+}
+.header-contant .main-text .main-heading{
+    font-family: Bold;
+    font-size: 50px;
+    color: #333950;
+    margin-left: 100px;
+    margin-bottom: 10px;
+    white-space: 5px;
+}
+.main-text .main-par{
+    font-family:Regular;
+    font-size: 25;
+    color: #707070;
+    margin-left: 100px;
+    margin-bottom: 25px;
+    font-size:16px;
+}
+.main-text .main-buttun{
+    background-color: #5175FF;
+    font-family: Bold;
+    color: white;
+    text-transform: capitalize;
+    border: none;
+    border-radius: 28px;
+    padding: 13px 40px;
+    margin-left: 100px;
+    font-size: 15px;   
+}
+.header-chart{
+    position: relative;
+    bottom: 50px;
+}
+.buttun-boxes{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:35px;
+ 
+}
+/* left.box*/
+.buttun-boxes .left-box{
+    background-color: white;
+    padding: 90px 80px;
+    border-radius: 7%;
+}
+.left-box .head{
+    text-align: center;
+    font-family: Regular;
+    font-size:20px;
+    margin-bottom: 30px
+}
+.left-box .price{
+    text-align: center;
+    font-family: Bold;
+    font-size: 50px;
+    color: #333950;
+}
+.left-box .par1{
+    font-family: Regular;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.left-box .par2{
+    font-family: Regular;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333950;
+    margin-bottom: 20px;
+}
+.left-box .storge{
+    font-family: Regular;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333950;
+    margin-bottom: 20px;
+}
+.left-box .ADV{
+    font-family: Regular;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333950;
+    margin-bottom: 60px;
+}
+.left-box .buttun2{
+    background-color: rgb(203, 234, 236);
+    font-family: Regular;
+    color: blue;
+    text-transform: capitalize;
+    border: none;
+    border-radius: 80px;
+    padding: 20px 60px;
+    font-size: 15px;
+}
+/*middel.box*/
+.buttun-boxes .middel-box{
+    background-color: white;
+    padding: 90px 80px;
+    border-radius: 7%;
+
+}
+.middel-box .head2{
+    text-align: center;
+    font-family: Regular;
+    font-size:20px;
+    margin-bottom: 30px;
+    color: #333950;
+}
+.middel-box .price2{
+    text-align: center;
+    font-family: Bold;
+    font-size: 50px;
+    color:#333950;
+}
+.middel-box .par11{
+    font-family: Regular;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #333950;
+}
+.middel-box .par22{
+    font-family: Regular;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333950;
+}
+.middel-box .storge2{
+    font-family: Regular;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333950;
+    margin-bottom: 20px;
+}
+.middel-box .ADV2{
+    font-family: Regular;
+    font-size: 15px;
+    text-align: center;
+    color: #333950;
+    margin-bottom: 60px;
+}
+.middel-box .buttun3{
+    background-color: rgb(203, 234, 236);;
+    font-family: Regular;
+    text-transform: capitalize;
+    border: none;
+    border-radius: 80px;
+    padding: 20px 60px;
+    font-size: 15px;
+}
+/*the lasst box*/
+.buttun-boxes .lasst-box{
+    background-color: white;
+    padding: 90px 80px;
+    border-radius: 7%;
+
+}
+.lasst-box .head3{
+    text-align: center;
+    font-family: Regular;
+    font-size:20px;
+    margin-bottom: 30px
+}
+.lasst-box .price3{
+    text-align: center;
+    font-family: Bold;
+    font-size: 50px;
+    color: #333950;
+}
+.lasst-box .par22{
+    font-family: Regular;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.lasst-box .par33{
+    font-family: Regular;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333950;
+    margin-bottom: 20px;
+}
+.lasst-box .storge3{
+    font-family: Regular;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333950;
+    margin-bottom: 20px;
+}
+.lasst-box .ADV3{
+    font-family: Regular;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333950;
+    margin-bottom: 60px;
+}
+.lasst-box .buttun4{
+    background-color: rgb(203, 234, 236);
+    font-family: Regular;
+    color: blue;
+    text-transform: capitalize;
+    border: none;
+    border-radius: 80px;
+    padding: 20px 60px;
+    font-size: 15px;
+}
+.middel-box:hover {
+    background-color: #5175FF;
+}
+.lasst-box:hover {
+    background-color: #5175FF;
+}
+.left-box:hover {
+    background-color: #5175FF;
+}
+.containar .p{
+    margin-left: 50px;
+    font-family: Regular;
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 100px;
+    letter-spacing: 5px;
+}
+.p .num{
+    color: #5175FF;
+    font-size: 30px;
+}
+.plans .day{
+    margin-left:45px;
+    background-color: #333950;
+    border-radius: 10%;
+    padding: 30px 30px;
+}
+.day .p1{
+    font-family: Regular;
+    font-size: 100px;
+    color: white;
+}
+.day  .p2{
+    font-size: 30px;
+    color: white;
+    font-family: Regular;
+    margin-left: 20px;
+}
+.plans .small-boxes{
+    display: flex;
+    justify-content: flex-start;
+}
+.small-boxes .hours{
+    background-color: #333950;
+    padding: 30px 30px;
+    border-radius: 10%;
+    margin-left: 40px;
+}
+.hours .p11{
+    font-family: Regular;
+    font-size: 100px;
+    color: white;
+}
+.hours  .p22{
+    font-size: 30px;
+    color: white;
+    font-family: Regular;
+    margin-left: 20px;
+}
+.small-boxes .min{
+    background-color: #333950;
+    padding: 30px 30px ;
+   border-radius: 10%;
+   margin-left: 40px;
+}
+.min .p13{
+    font-family: Regular;
+    font-size: 100px;
+    color: white;
+}
+.min  .p23{
+    font-size: 30px;
+    color: white;
+    font-family: Regular;
+    margin-left: 22px;
+}
+.small-boxes .sec{
+    background-color: #333950;
+    border-radius: 10%;
+    padding: 30px 30px;
+    margin-left: 40px;
+}
+.sec .p14{
+    font-family: Regular;
+    font-size: 100px;
+    color: white;
+}
+.sec  .p24{
+    font-size: 30px;
+    color: white;
+    font-family: Regular;
+    margin-left: 20px;
+}
+.plans .buttun5{
+    background-color: #5175FF;
+    font-family: Bold;
+    color: white;
+    text-transform: capitalize;
+    border: none;
+    border-radius: 28px;
+    padding: 13px 40px;
+    font-size: 15px;   
+    margin-left: 300px;
+    height: 50px;
+    margin-top: -150px;
+    margin-right: 80px;
+    float: right;
+}
+.buttun5:hover{
+    background-color: rgb(74, 102, 126);
+}
+.main-buttun:hover{
+    background-color: rgb(74, 102, 126);
+}
