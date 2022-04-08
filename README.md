@@ -1,6 +1,6 @@
 # project
 
-# my first project 🤩✅
+# My first project 🤩✅
 
 * Use Visual studio code
 * use html
